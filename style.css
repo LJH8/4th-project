@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 1px solid black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+span{
+  margin-top: 5px;
+}
+/* end setting */
+
+body {
+  background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MTNfMTc0%2FMDAxNjUyNDA3NzQ1NjQ2.wFYCWszVbq4UblqstGtgCJi5LTNcyUMo0UWoyn9NM8Ag.6yBQk4FsZZ2xFYBlPvgpu-9ZItqwUBrbOO-QPfKhMMsg.PNG.ldjoon25%2FWenge.png&type=a340);
+  height: 100%;
+}
+
+.container {
+  background-color:#476177;
+  margin-top: 50px;
+  height: auto;
+  border-radius: 50px;
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  font-family: "Fascinate", cursive;
+  margin-top: 0.8em;
+  font-size: 70px;
+  color: rgb(213, 228, 11)
+}
+
+.search-area {
+  margin-top: 1em;
+}
+
+.search-area input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.search-area button {
+  background: none;
+  border: none;
+  margin-left: 15px;
+}
+
+.search-area button i {
+  font-size: 23px;
+  color: white;
+}
+
+#middle {
+  margin-top: 30px;
+}
+
+.book-data {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 350px;
+  height: auto;
+}
+
+.book-thumbnail {
+  margin-top: 20px;
+}
+
+.book-content h2,
+div,
+p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.book-content p {
+  padding: 0 10px 10px;
+  letter-spacing: 0.1px;
+  line-height: 25px;
+}
+
+.status {
+  border: 1px solid white;
+  background-color: blue;
+  border-radius: 10px;
+  color: beige;
+  font-weight: 700;
+  width: 100px;
+  height: 30px;
+  line-height: 26px;
+  text-align: center;
+}
+
+#page {
+  display: flex;
+  justify-content: center;
+}
+
+#pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+#pagination a.active {
+  border-radius: 10px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+#pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.no-search {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #show-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title h1 {
+    font-family: "Fascinate", cursive;
+    margin-top: 0.8em;
+    font-size: 50px;
+    color: rgb(70, 68, 211);
+  }
+}
